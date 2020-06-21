@@ -1,3 +1,7 @@
 p {
   color: green;
 }
+#image {
+  width: 350px;
+  height: 350px;
+}
