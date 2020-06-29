@@ -1,7 +1,72 @@
 p {
   color: black;
 }
+
+body {
+  background-color: hsl(60, 100%, 75%);
+  position: relative;
+}
+
+h4 {
+  text-align: center;
+}
+#main {
+  background-color: hsl(60, 100%, 75%);
+  border: 3px dashed purple;
+  position: relative;
+}
+
+#title {
+  text-align: center;
+  padding-top: 10px;
+}
+
 #image {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 35% 33% 32%;
+}
+
+.item1 {
+  border: 2px purple solid;
+}
+
+.item2 {
+  background-color: hsl(300, 100%, 40%);
+  border: 2px solid purple;
+}
+
+.item3 {
+  background-color: hsl(300, 100%, 40%);
+  border: 2px purple solid;
+}
+
+.item4 {
+  border: 2px purple solid;
+}
+
+.item5 {
+  border: 2px purple solid;
+  justify-self: center;
+}
+
+.item6 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 70px;
+  color: yellow;
+  background-color: hsl(300, 100%, 40%);
 }
