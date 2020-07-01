@@ -37,7 +37,7 @@ h4 {
   width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 35% 33% 32%;
+  grid-template-rows: repeat(3, auto);
 }
 
 .item1 {
